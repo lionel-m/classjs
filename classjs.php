@@ -38,8 +38,7 @@ class Classjs extends Frontend
 {
     public function hookOutputFrontendTemplate($strBuffer, $strTemplate)
     {
-        $count = 1;
-        $strBuffer = preg_replace('/<html/', '<html class="no-js"', $strBuffer, $count);
+        $strBuffer = preg_replace('#<html(.*)( class="(.*)")?(.*)>#U', '<html$1 class="no-js $3"$4>', $strBuffer, 1);
         
         return $strBuffer;
     }
