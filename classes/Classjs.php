@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Contao Open Source CMS
+ * Classjs
+ * This extension adds the class "no-js" to the html tag and replaces it with the class "js" if JavaScript is enabled.
  *
- * Copyright (C) 2005-2012 Leo Feyer
- *
- * @package classjs
- * @link    http://www.contao.org
- * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
+ * @author    Lionel Maccaud
+ * @copyright Lionel Maccaud
+ * @package   classjs
+ * @license   MIT
  */
 
 /**
