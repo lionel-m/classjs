@@ -30,6 +30,9 @@
             "sources": {
                 "system/modules/classjs": "system/modules/classjs"
             }
+        },
+        "branch-alias": {
+            "dev-master": "2.x.x-dev"
         }
     }
 }
