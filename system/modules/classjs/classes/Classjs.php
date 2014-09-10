@@ -16,7 +16,7 @@
 namespace Contao;
 
 /**
- * Class Classjs 
+ * Class Classjs
  *
  * @author     Tristan Lins, Lionel Maccaud
  * @package    Controller
@@ -30,4 +30,3 @@ class Classjs extends \Frontend
         return $strBuffer;
     }
 }
-?>

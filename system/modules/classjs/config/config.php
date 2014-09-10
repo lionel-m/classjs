@@ -25,4 +25,3 @@ if (TL_MODE == 'FE') {
  * -------------------------------------------------------------------------
  */
 $GLOBALS['TL_HOOKS']['outputFrontendTemplate'][] = array('Classjs', 'hookOutputFrontendTemplate');
-?>

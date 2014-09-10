@@ -15,6 +15,6 @@
  */
 ClassLoader::addClasses(array
 (
-	// Classes
-	'Contao\Classjs' => 'system/modules/classjs/classes/Classjs.php',
+    // Classes
+    'Contao\Classjs' => 'system/modules/classjs/classes/Classjs.php',
 ));
