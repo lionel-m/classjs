@@ -3,9 +3,9 @@
 Contao repository : <http://contao.org/en/extension-list/view/classjs.html>
 
 ### Method
-The extension adds the default ```no-js``` class. It replaces the class ```no-js``` with ```js``` if JavaScript is enabled.
+This extension adds the default `no-js` class. It replaces the class `no-js` with `js` if JavaScript is enabled.
 
-```HTML
+```html
 <html class="no-js">
 ...
 </html>

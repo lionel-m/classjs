@@ -13,7 +13,7 @@
 /**
  * Run in a custom namespace, so the class can be replaced
  */
-namespace Contao;
+namespace LionelM\ClassJsBundle;
 
 /**
  * Class Classjs
@@ -26,7 +26,7 @@ class Classjs extends \Frontend
     public function hookOutputFrontendTemplate($strBuffer, $strTemplate)
     {
         $strBuffer = preg_replace('#<html(.*)( class="(.*)")?(.*)>#U', '<html$1 class="no-js $3"$4>', $strBuffer, 1);
-        
+
         return $strBuffer;
     }
 }

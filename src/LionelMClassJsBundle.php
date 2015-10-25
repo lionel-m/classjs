@@ -10,11 +10,10 @@
  * @license   MIT (http://lionel-m.mit-license.org/)
  */
 
-/**
- * Register the classes
- */
-ClassLoader::addClasses(array
-(
-    // Classes
-    'Contao\Classjs' => 'system/modules/classjs/classes/Classjs.php',
-));
+namespace LionelM\ClassJsBundle;
+
+use Symfony\Component\HttpKernel\Bundle\Bundle;
+
+class LionelMClassJsBundle extends Bundle
+{
+}

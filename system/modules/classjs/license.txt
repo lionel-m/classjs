@@ -1,2 +1,0 @@
-Contao extension by Lionel Maccaud (http://www.contao.org/en/extension-list/authors/lionel.html)
-License: MIT (http://lionel-m.mit-license.org/)

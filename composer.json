@@ -6,10 +6,10 @@
     "license":"MIT",
     "authors":[
         {
-        "name":"Lionel Maccaud",
-        "email":"work@lionelmaccaud.ch",
-        "homepage":"http://lionelmaccaud.ch",
-        "role":"Developer"
+            "name":"Lionel Maccaud",
+            "email":"work@lionelmaccaud.ch",
+            "homepage":"http://lionelmaccaud.ch",
+            "role":"Developer"
         }
     ],
     "support":{
@@ -18,18 +18,16 @@
         "source":"https://github.com/lionel-m/classjs"
     },
     "require":{
-        "php":">=5.3",
-        "contao/core": ">=3.0,<4.0-dev",
-        "contao-community-alliance/composer-plugin": "~2.0"
+        "php":">=5.4.0",
+        "symfony/framework-bundle": "~2.7",
+        "contao/core-bundle": "~4.0"
     },
     "replace": {
-            "contao-legacy/classjs": "*"
+        "contao-legacy/classjs": "self.version"
     },
-    "extra": {
-        "contao": {
-            "sources": {
-                "system/modules/classjs": "system/modules/classjs"
-            }
+    "autoload": {
+        "psr-4": {
+            "LionelM\\ClassJsBundle\\": "src/"
         }
     }
 }
