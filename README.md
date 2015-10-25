@@ -10,3 +10,9 @@ This extension adds the default `no-js` class. It replaces the class `no-js` wit
 ...
 </html>
 ```
+
+### Contao 4.x beta
+
+Add `"lionel/classjs": "~3.0@beta"` in  the `composer.json` file.
+
+Add `new LionelM\ClassJsBundle\LionelMClassJsBundle(),` in the `app/AppKernel.php` file.
