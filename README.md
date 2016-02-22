@@ -13,3 +13,5 @@ This extension adds the default `no-js` class. It replaces the class `no-js` wit
 Add `"lionel/classjs": "~3.0"` in  the `composer.json` file.
 
 Add `new LionelM\ClassJsBundle\LionelMClassJsBundle(),` in the `app/AppKernel.php` file.
+
+Run the command `php composer.phar update classjs`.
