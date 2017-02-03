@@ -17,9 +17,8 @@ use Contao\CoreBundle\ContaoCoreBundle;
  * FRONT END
  * -------------------------------------------------------------------------
  */
-$isFrontEnd = \System::getContainer()->isScopeActive(ContaoCoreBundle::SCOPE_FRONTEND);
 
-if ($isFrontEnd) {
+if (TL_MODE == 'FE') {
     $GLOBALS['TL_HEAD'][] = '<script>(function(H){H.className=H.className.replace(/\bno-js\b/,\'js\')})(document.documentElement)</script>';
 }
 
