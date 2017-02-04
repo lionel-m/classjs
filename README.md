@@ -1,4 +1,7 @@
-## Add the class "no-js" or "js" if JavaScript is enabled or not (Contao CMS)
+## Add the class "no-js" or "js" if JavaScript is enabled or not ([Contao CMS](https://contao.org/en))
+
+[![Latest Stable Version](https://poser.pugx.org/lionel/classjs/v/stable)](https://packagist.org/packages/lionel/classjs)
+[![License](https://poser.pugx.org/lionel/classjs/license)](https://packagist.org/packages/lionel/classjs)
 
 This extension adds the default `no-js` class. It replaces the class `no-js` with `js` if JavaScript is enabled.
 
